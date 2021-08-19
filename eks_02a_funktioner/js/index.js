@@ -2,5 +2,12 @@
 document.addEventListener("DOMContentLoaded", () => {
 
 	// skriv din kode her...
+	
+	hils("Hej med dig!");
+	
+	function hils(messege) {
+
+		console.log(messege);
+	};
 
 }); // Afslutter: DOMContentLoaded
