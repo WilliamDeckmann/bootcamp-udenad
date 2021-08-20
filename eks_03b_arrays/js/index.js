@@ -2,13 +2,13 @@
 document.addEventListener("DOMContentLoaded", () => {
 
 	// skriv din kode her...
+	
+	// Character array
+	let CharacterArray = ["Anders", "Fedtmul", "Micky"]
 
 
 
 	//--------------------{ Version 1 }--------------------//
-
-	// Character array
-	let CharacterArray = ["Anders", "Fedtmul", "Micky"]
 
 	// Get array names
 	function GetArrayNames(Array) {
