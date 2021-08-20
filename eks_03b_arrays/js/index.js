@@ -3,6 +3,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	// skriv din kode her...
 
+
+
+	//--------------------{ Version 1 }--------------------//
+
 	// Character array
 	let CharacterArray = ["Anders", "Fedtmul", "Micky"]
 
@@ -18,5 +22,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	// Initiator
 	GetArrayNames(CharacterArray);
+
+
+
+	//--------------------{ Version 2 }--------------------//
+
+	// Get array names
+	function GetArrayNames2(Array) {
+
+		Array.forEach((Character) => {
+			document.querySelector("#liste").innerHTML += `<li> ${Character} </li>`;
+		});
+	};
+
+	// Initiator
+	GetArrayNames2(CharacterArray);
 
 }); // Afslutter: DOMContentLoaded
